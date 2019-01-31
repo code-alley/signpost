@@ -1,0 +1,25 @@
+/* Smaller Then Desktop
+================================================== */
+@media ( max-width : 1700px) {
+	.m_box {
+		width: 25% !important;
+	}
+}
+
+@media all and (min-width:1500px) and (max-width:1700px) {
+	.m_box {
+		width: 33% !important;
+	}
+}
+
+@media all and (min-width:770px) and (max-width:1500px) {
+	.m_box {
+		width: 50% !important;
+	}
+}
+
+@media ( max-width : 770px) {
+	.m_box {
+		width: 100% !important;
+	}
+}

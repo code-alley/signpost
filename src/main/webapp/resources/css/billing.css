@@ -1,0 +1,13 @@
+.billing_legend {
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: inherit;
+	color: #333;
+	border-bottom: 1px solid #dfe0e1;
+}
+
+#company_save_btn, #company_cancel_btn {
+	width: 70px;
+}

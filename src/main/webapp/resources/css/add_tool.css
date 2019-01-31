@@ -1,0 +1,26 @@
+.theme-font-color {
+	font-size: 16px;
+}
+
+.headline {
+	padding-bottom: 10px;
+}
+
+.installed_tool_btn,
+.add_tool_btn {
+	padding-bottom: 20px;
+}
+
+#add_tool_row .add-tools.active {
+	border: 3px solid #1f897f;
+}
+
+#add_tool_attr,
+#tool_form .form-body,
+#tool_form .form-actions {
+	display: none;
+}
+
+#tool_form .form-body.active {
+	display: block !important;	
+}

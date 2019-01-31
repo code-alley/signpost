@@ -1,0 +1,61 @@
+/* Main Page */
+#main_row .new-pipeline-body {
+	text-align: center;
+	padding-top: 180px;
+}
+
+#main_row .new-pipeline-text {
+	font-size: 45px;
+	margin-bottom: 30px;
+}
+
+#main_row .new-pipeline-btn {
+	font-size: 15px;
+}
+
+#main_row .portlet-title {
+	border-bottom: 1px solid #ACB5C3 !important;
+}
+
+#main_row .portlet-body .scroller {
+	height: 300px;
+}
+
+#main_row .feeds li .col1 > .cont > .cont-col1 {
+    margin-top: 2px;
+}
+
+#main_row .feeds li .col1 > .cont > .cont-col1 > .label {
+	width: 80px;
+}
+
+#main_row .feeds li .col1>.cont>.cont-col2>.desc {
+	margin-left: 90px;
+	margin-right: 90px;
+}
+
+#main_row .feeds li .col2 {
+    width: 140px;
+    margin-left: -140px;
+}
+
+
+.page-head .page-title {
+	font-size: 24px;
+}
+
+.row.mix-grid {
+	padding-top: 30px;
+}
+
+.mix-filter .filter {
+	font-size: 16px;
+}
+
+.portlet.light>.portlet-title>.caption>.caption-subject {
+	font-size: 22px;
+}
+
+.portlet.light .portlet-body {
+	padding-top: 25px;
+}

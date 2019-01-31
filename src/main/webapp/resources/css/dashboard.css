@@ -1,0 +1,90 @@
+#m_scm_box,
+#m_code_review_box,
+#m_build_box,
+#m_static_analysis_box,
+#m_tm_box,
+#m_pm_box,
+#m_documentation_box {
+	display:none;
+}
+
+#m_scm_box .number,
+#m_code_review_box .number,
+#m_build_box .number,
+#m_static_analysis_box .number,
+#m_tm_box .number,
+#m_pm_box .number,
+#m_documentation_box .number {
+	color: #AAB5BC;
+	text-align: center;
+}
+
+#m_code_review_box .value,
+#m_build_box .value,
+#m_static_analysis_box .value,
+#m_tm_box .value,
+#m_pm_box .value {
+	padding-left:25px;
+}
+
+#m_scm_box .progress-info,
+#m_code_review_box .progress-info,
+#m_build_box .progress-info,
+#m_static_analysis_box .progress-info,
+#m_tm_box .progress-info,
+#m_pm_box .progress-info,
+#m_documentation_box .progress-info {
+	border-bottom: 2px solid #AAB5BC;
+}
+
+#m_scm_box .progress-info .status-title,
+#m_code_review_box .progress-info .status-title,
+#m_build_box .progress-info .status-title,
+#m_static_analysis_box .progress-info .status-title,
+#m_tm_box .progress-info .status-title,
+#m_pm_box .progress-info .status-title,
+#m_documentation_box .progress-info .status-title {
+	padding-top: 10px;
+}
+
+#m_scm_box .progress-info .status-number,
+#m_code_review_box .progress-info .status-number,
+#m_build_box .progress-info .status-number,
+#m_static_analysis_box .progress-info .status-number,
+#m_tm_box .progress-info .status-number,
+#m_pm_box .progress-info .status-number,
+#m_documentation_box .progress-info .status-number {
+	padding-top: 10px;
+}
+
+#scm_box,
+#code_review_box,
+#build_box,
+#static_analysis_box,
+#tm_box,
+#pm_box,
+#documentation_box {
+	display:none;
+}
+
+.feeds li .col1 > .cont > .cont-col1 {
+    margin-top: 2px;
+}
+
+.feeds li .col1 > .cont > .cont-col1 > .label {
+	width: 80px;
+}
+
+.feeds li .col1>.cont>.cont-col2>.desc {
+	margin-left: 90px;
+	margin-right: 90px;
+}
+
+.feeds li .col2 {
+    width: 140px;
+    margin-left: -140px;
+}
+
+span.badge.badge-empty.badge-danger {
+	margin: 0 5px 7px 0;
+}

@@ -1,0 +1,69 @@
+#invite_popup {
+	top: 30%;
+}
+
+#invite_popup .title {
+	font-size: 20px;
+}
+
+#invite_popup .body {
+	font-size: 14px;
+	padding-bottom: 10px;
+}
+
+#invite_popup .modal-body {
+	padding-top: 30px;
+	padding-bottom: 0px;
+}
+
+#invite_popup form {
+	margin: 0px;
+}
+
+#invite_popup .form-group {
+	width: 100%;
+}
+
+#invite_popup .error {
+	display: none;
+	padding-left: 30px;
+	background-color: #f2dede;
+	border-color: #ebccd1;
+	color: #a94442;
+	padding: 15px;
+	margin-bottom: 20px;
+	border: 1px solid transparent;
+}
+
+#email_exist_error {
+	padding-left: 20px;
+}
+
+#invite_popup input {
+	width: 100%;
+}
+
+#invite_popup label {
+	padding-top: 5px;
+	padding-left: 30px;
+}
+
+#invite_popup .modal-footer {
+	margin-top: 5px;
+	padding: 15px 15px 15px;
+}
+
+#invite_role_popup .title, #invite_success_popup .title,
+	#invite_error_popup .title {
+	font-size: 22px;
+}
+
+#invite_role_popup #invite_role_message, #invite_success_popup #invite_success_message,
+	#invite_error_popup #invite_error_message {
+	font-size: 15px;
+	padding-bottom: 10px;
+}
+
+.modal .modal-content .modal-title {
+	font-weight: bold;
+}

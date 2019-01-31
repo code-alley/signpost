@@ -1,0 +1,283 @@
+/***********************************/
+/********* GROUP SETTINGS **********/
+/***********************************/
+.settings-tab {
+	margin-left: 10px;
+}
+
+.tab-sub-content {
+	margin-top: 15px;
+	margin-bottom: 35px;
+}
+
+.tab-sub-title {
+	font-size: 16px;
+}
+
+.tab-sub-body {
+	font-size: 16px;
+	color: #8775a7 !important;
+	margin-top: 10px;
+}
+
+#member_table tr th, 
+#member_table tr td {
+	text-align: center;
+}
+
+#member_table tr td {
+	font-size: 13px !important;
+}
+
+#member_table .member-edit,
+#member_table .member-delete {
+	width: 10%;
+}
+
+#member_table .member-edit a,
+#member_table .member-delete a {
+	font-size: 12px;
+}
+
+#member_table_info {
+	display: none;
+}
+
+.manage-members-tab #delete_group {
+	display: none;
+	margin-left: 30px;
+}
+
+#settings_invite_row {
+	display: none;
+}
+
+#settings_invite_row .caption {
+	font-size: 16px;
+	padding-left: 15px;
+	padding-top: 15px;
+}
+
+#settings_invite_row .form-horizontal .control-label {
+	text-align: left;
+}
+
+#settings_invite_row .alert {
+	padding: 10px;
+}
+
+.tool-settings {
+	padding: 4px 6px 2px 6px !important;
+}
+
+.manage-tools-tab .badge-danger {
+	display: none;
+	float: left;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+.manage-tools-tab .dropdown-menu .divider {
+	margin: 0px;
+}
+
+.manage-tools-tab .token {
+	display: none;
+}
+
+.manage-tools-tab .form-md-line-input {
+	padding: 0px !important;
+	margin: 0 0px 10px -5px ! important;
+}
+
+.manage-tools-tab .form-md-line-input label {
+	text-align: center;
+}
+
+.manage-tools-tab .form-group.form-md-line-input .form-control {
+	font-size: 14px;
+	color: #888888;
+	padding-left: 15px;
+	overflow: hidden;
+}
+
+.modal-dialog.modal-sm {
+	top: 30%;
+}
+
+#dropzone {
+	background: #ccccc;
+	width: 150px;
+	height: 50px;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 18px;
+}
+
+#dropzone.in {
+	width: 600px;
+	height: 200px;
+	line-height: 200px;
+	font-size: larger;
+}
+
+#dropzone.hover {
+	background: lawngreen;
+}
+
+#dropzone.fade {
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+	opacity: 1;
+}
+
+#file_download_popup .modal-header {
+	height: 70px;
+	padding-top: 25px;
+}
+
+#file_download_popup .modal-body {
+	min-height: 500px;
+	max-height: 500px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+#file_download_popup table {
+	table-layout: fixed;
+}
+
+#file_download_popup table tbody tr th {
+	border-top: 0px;
+	text-align: center;
+	border-bottom: 1px solid #ddd;
+	font-size: 15px;
+}
+
+#file_download_popup table tbody tr td {
+	text-align: center;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	border-top: 0px;
+	line-height: 2;
+	font-size: 15px;
+}
+
+#file_download_popup .modal-footer {
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+#file_upload_popup .modal-body {
+	min-height: 550px;
+	max-height: 550px;
+}
+
+#file_upload_popup .modal-footer {
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+#file_upload_popup .file-name {
+	max-height: 130px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+#file_upload_popup .file-name p {
+	width: 230px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+#file_upload_popup .file-name .success {
+	color: #26A69A;
+	font-weight: bold;
+}
+
+#file_upload_popup .file-name .fail {
+	color: #F3565D;
+	font-weight: bold;
+}
+
+.jFiler-input-dragDrop {
+	width: 560px;
+	height: 270px;
+}
+
+.jFiler-item-container {
+	width: 570px;
+}
+
+.jFiler-item-thumb {
+	width: 100% !important;
+	height: 50px !important;
+	min-height: 50px !important;
+}
+
+.jFiler-item-info {
+	height: 50px !important;
+}
+
+.jFiler-items-grid .jFiler-item .jFiler-item-container .jFiler-item-assets .jFiler-jProgressBar
+	{
+	width: 280px !important;
+	margin-left: 0px !important;
+}
+
+.jFiler-item-others.text-success, .jFiler-item-others.text-error {
+	padding-right: 20px;
+}
+
+.jFiler {
+	font-family: inherit;
+}
+
+i.icon-jfi-cloud-up-o {
+	font-size: inherit;
+}
+
+.jFiler-input-text span {
+	font-size: inherit;
+}
+
+.jFiler-items-grid .jFiler-item .jFiler-item-container {
+	margin: 0px;
+	padding: 0px;
+	padding-left: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	border: 0px;
+}
+
+.jFiler-input-inner {
+	padding-top: 35px;
+}
+
+.jFiler-items.jFiler-row {
+	min-height: 200px;
+	max-height: 220px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.jFiler-items-grid .jFiler-item .jFiler-item-container .jFiler-item-assets .jFiler-item-others{
+	font-size: 13px;
+}
+
+.jFiler-item-others.text-error {
+	color: #F3565D;
+}
+
+.jFiler-item-title {
+	display: inline-block;
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

@@ -1,0 +1,64 @@
+/***********************************/
+/******** PIPELINE WIZARD **********/
+/***********************************/
+
+#pipeline_wizard_form .steps > li > a.step > .desc {
+	display: block;
+	font-size: 14px;
+}
+
+#pipeline_wizard_form .steps > li > a.step > .number {
+	margin-right: 0px !important;
+}
+
+#pipeline_wizard_form .steps {
+	overflow: auto;
+}
+
+.pipeline_img_box {
+	padding-left: 13%;
+	margin-bottom: 40px;
+}
+
+.pipeline_img_box ul li {
+	float: left;
+	margin-left: 25px;
+}
+
+.db_type_select, 
+.scm_type_select,
+.code_review_type_select,
+.build_system_type_select,
+.tm_type_select,
+.static_analysis_type_select,
+.pm_type_select,
+.documentation_type_select, 
+.ide_type_select {
+	border: 7px solid #36aa47;
+}
+
+.tool-type-select {
+	border: 7px solid #36aa47;
+}
+
+
+
+.list-unstyled li a img {
+	width: 140px;
+	height: 110px;
+}
+
+
+#pipeline_wizard_form span.desc {
+	width: 100%;
+	padding-top: 3px;
+}
+		
+#confirm_btn {
+	background-color: #ccc;
+	pointer-events: none;
+}
+
+#confirm_btn:hover {
+	background-color: #ccc;
+}
